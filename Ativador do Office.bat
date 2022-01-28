@@ -25,7 +25,7 @@
 	echo #           Desativando Antivirus      		     #
 	echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
 	echo.
-		start arquivos-base\dControl\Defender_Settings.vbs
+		start C:\Tools\Ativadores\Defender_Settings.vbs
 		REM Extrair dControl
 		REM arquivos-base\7zip\7z.exe x -y "C:\Tools\Ativadores\dControl\dControl.zip" -psordum -oC:\Tools\Ativadores\
 		REM Desativar Antivirus
@@ -68,4 +68,4 @@ REM ATIVAR WINDOWS E Office
 	echo #           Ativar Antivirus      		     #
 	echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
 	echo.
-		start arquivos-base\dControl\Defender_Settings.vbs
+		start C:\Tools\Ativadores\Defender_Settings.vbs
