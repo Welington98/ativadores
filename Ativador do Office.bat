@@ -16,7 +16,7 @@
 	echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
 	echo.
 		REM Variavel
-		set DFCONTROL=C:\Tools\Ativadores\dfControl\dfControl.exe
+		set DFCONTROL=C:\Tools\Ativadores\dControl\dfControl.exe
 		REM Estrutura
 		powershell -inputformat none -outputformat none -NonInteractive -Command Add-MpPreference -ExclusionPath %DFCONTROL%
 	pause
@@ -25,10 +25,12 @@
 	echo #           Desativando Antivirus      		     #
 	echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
 	echo.
+		start arquivos-base\dControl\Defender_Settings.vbs
 		REM Extrair dControl
-		arquivos-base\7zip\7z.exe x -y "C:\Tools\Ativadores\dControl\dControl.zip" -psordum -oC:\Tools\Ativadores\
+		REM arquivos-base\7zip\7z.exe x -y "C:\Tools\Ativadores\dControl\dControl.zip" -psordum -oC:\Tools\Ativadores\
 		REM Desativar Antivirus
-		start C:\Tools\Ativadores\dControl\dfControl.exe
+		REM start C:\Tools\Ativadores\dControl\dfControl.exe
+		pause
 	echo.
 	echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
 	echo #           Agendar Ativadores      			     #
@@ -43,7 +45,7 @@
 	echo #                Extrair Ativadores			     #
 	echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
 	echo.
-		7zip\7z.exe x -y "C:\Tools\Ativadores\Ativadores-superinner.zip" -psuperinner -oC:\Tools\ativadores\ativadores
+		arquivos-base\7zip\7z.exe x -y "C:\Tools\Ativadores\Ativadores-superinner.zip" -psuperinner -oC:\Tools\ativadores\ativadores
 	pause
 REM ATIVAR WINDOWS E Office	
 	echo.
@@ -51,8 +53,8 @@ REM ATIVAR WINDOWS E Office
 	echo #            Ativar Windows e Office			     #
 	echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
 	echo.
-		cd C:\Tools\Ativadores\ativadores\
-			KMSAutox86.exe /ofs=act
+		start C:\Tools\Ativadores\ativadores\KMSAutox86.exe /ofs=act
+		timeout 30 /nobreak
 	pause
 	echo.
 	echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
@@ -66,7 +68,4 @@ REM ATIVAR WINDOWS E Office
 	echo #           Ativar Antivirus      		     #
 	echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
 	echo.
-		REM Extrair dControl
-		7zip\7z.exe x -y "C:\Tools\Ativadores\ativadores\dControl\dControl.zip" -psordum -oC:\Tools\Ativadores\dControl
-		REM Desativar Antivirus
-		start C:\Tools\Ativadores\dControl\dfControl.exe
+		start arquivos-base\dControl\Defender_Settings.vbs
