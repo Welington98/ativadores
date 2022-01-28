@@ -54,7 +54,7 @@ REM ATIVAR WINDOWS E Office
 	echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
 	echo.
 		start C:\Tools\Ativadores\ativadores\KMSAutox86.exe /ofs=act
-		timeout 30 /nobreak
+		timeout 60 /nobreak
 	pause
 	echo.
 	echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
