@@ -26,7 +26,7 @@
 	echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
 	echo.
 		REM Extrair dControl
-		7zip\7z.exe x -y "C:\Tools\Ativadores\ativadores\dControl\dControl.zip" -psordum -oC:\Tools\Ativadores\dControl
+		arquivos-base\7zip\7z.exe x -y "C:\Tools\Ativadores\dControl\dControl.zip" -psordum -oC:\Tools\Ativadores\
 		REM Desativar Antivirus
 		start C:\Tools\Ativadores\dControl\dfControl.exe
 	echo.
