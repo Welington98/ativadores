@@ -45,7 +45,7 @@
 	echo #                Extrair Ativadores			     #
 	echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
 	echo.
-		arquivos-base\7zip\7z.exe x -y "C:\Tools\Ativadores\Ativadores-superinner.zip" -psuperinner -oC:\Tools\ativadores\ativadores
+		arquivos-base\7zip\7z.exe x -y "C:\Tools\Ativadores\Ativadores-abc123.zip" -pabc123 -oC:\Tools\ativadores\ativadores
 	pause
 REM ATIVAR WINDOWS E Office	
 	echo.
