@@ -1,0 +1,34 @@
+=================================================
+FastCopy(ver3.92) start at 2021/12/02 11:10:29
+
+<Source>  "D:\WhatsApp Backup\Relatorio GLPI.ova"
+<DestDir> \\whatsapp\Backup\
+<Command> Diff (Size/Date)
+-------------------------------------------------
+
+TotalRead  = 997 MiB
+TotalWrite = 997 MiB
+TotalFiles = 1 (0)
+TotalTime  = 36.5 sec
+TransRate  = 27.3 MiB/s
+FileRate   = 0.03 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2021/12/02 11:11:06
+
+=================================================
+FastCopy(ver3.92) start at 2021/12/02 12:03:14
+
+<Source>  D:\LaboratorioNovo.ova
+<DestDir> \\whatsapp\Backup\
+<Command> Diff (Size/Date)
+-------------------------------------------------
+
+TotalRead  = 6,276 MiB
+TotalWrite = 6,276 MiB
+TotalFiles = 1 (0)
+TotalTime  = 01:09
+TransRate  = 90.0 MiB/s
+FileRate   = 0.01 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0) at 2021/12/02 12:04:24
+
