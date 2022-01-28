@@ -16,7 +16,7 @@
 	echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
 	echo.
 		REM Variavel
-		set DFCONTROL=C:\Tools\Ativadores\dControl\dfControl.exe
+		set DFCONTROL=C:\Tools\Ativadores\
 		REM Estrutura
 		powershell -inputformat none -outputformat none -NonInteractive -Command Add-MpPreference -ExclusionPath %DFCONTROL%
 	pause
